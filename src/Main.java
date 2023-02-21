@@ -32,11 +32,44 @@ public static void task3(){
             System.out.println(i);}
     }
 
-    public static void task5(){}
-    public static void task6(){}
-    public static void task7(){}
-    public static void task8(){}
-    public static void task9(){}
-    public static void task10(){}
+    public static void task5(){
+        System.out.println("Задача 5");
+        for (int i = 1904; i < 2097; i = i + 4){
+            System.out.println(i + " год является високостным");}
+    }
+    public static void task6(){
+        System.out.println("Задача 6");
+        for (int i = 0; i < 99; i = i + 7){
+            System.out.println(i);}
+    }
+    public static void task7(){
+        System.out.println("Задача 7");
+        for (int i = 1; i < 513; i = i * 2){
+            System.out.println(i);}
+    }
+    public static void task8(){
+        System.out.println("Задача 8");
+        int deposit = 29000;
+        int total = 0;
+        for (int i = 1; i < 13; i++){
+            total += deposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");}
+    }
+    public static void task9(){
+        System.out.println("Задача 9");
+        int deposit = 29000;
+        int total = 0;
+        for (int i = 1; i < 13; i++){
+            total += total / 100;
+            total += deposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");}
+    }
+    public static void task10(){
+        System.out.println("Задача 10");
+        int multiplier = 2;
+        for (int i = 1; i < 11; i++){
+            int total = i * multiplier;
+            System.out.println(multiplier + "*" + i + "=" + total);}
+    }
 }
 
